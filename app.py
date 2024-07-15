@@ -16,8 +16,6 @@ from analysis import analysis_page
 from notification import notif_page
 from settings import settings_page
 
-st.set_page_config(layout="wide")
-
 # MongoDB connection
 client = MongoClient("mongodb://localhost:27017/")
 db1 = client['user_auth_db']
